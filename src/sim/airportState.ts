@@ -180,8 +180,8 @@ export const INITIAL_CONTRACTS: AirlineContract[] = [
 
 export const INITIAL_FLIGHTS: Flight[] = [
   {
-    id: 'fl_ai102',
-    flightNumber: 'AI102',
+    id: 'fl_sw102',
+    flightNumber: 'SW102',
     airline: 'SkyWays',
     airlineCode: 'SW',
     color: '#0284c7',
@@ -310,7 +310,7 @@ export const INITIAL_FLIGHTS: Flight[] = [
 export const INITIAL_EVENTS: AirportGameEvent[] = [
   {
     id: 'ev_1',
-    title: 'Flight AI102 is boarding',
+    title: 'Flight SW102 is boarding',
     description: 'Passengers are currently passing aerobridge Gate A1.',
     time: '14:20',
     type: 'info',
@@ -395,7 +395,7 @@ export const INITIAL_BUILDINGS: PlacedBuilding[] = [
     width: 5,
     height: 5,
     level: 2,
-    activeFlightId: 'fl_ai102',
+    activeFlightId: 'fl_sw102',
   },
   {
     id: 'b_gate_a2',
@@ -743,8 +743,8 @@ export function createInitialSimState(): AirportSimState {
       },
     ],
 
-    selectedFlightId: 'fl_ai102',
-    selectedEntityId: 'fl_ai102',
+    selectedFlightId: 'fl_sw102',
+    selectedEntityId: 'fl_sw102',
     selectedBuildingDefId: null,
     buildModeActive: false,
 

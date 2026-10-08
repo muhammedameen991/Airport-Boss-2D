@@ -26,7 +26,7 @@ export const FlightSchedulerModal: React.FC<FlightSchedulerModalProps> = ({
 
   const handleQuickAddFlight = () => {
     soundManager.playCash();
-    const flightNums = ['AI304', 'SG882', '6E551', 'UK910', 'SW442'];
+    const flightNums = ['SW304', 'SG882', '6E551', 'UK910', 'SW442'];
     const origins = ['Goa', 'Ahmedabad', 'Pune', 'Kolkata', 'Hyderabad'];
     const dests = ['Cochin', 'Mumbai', 'Delhi', 'Bangalore', 'Chennai'];
     const gates = ['A1', 'A2', 'A3', 'A4'];

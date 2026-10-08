@@ -27,7 +27,7 @@ const STEPS = [
   },
   {
     step: 4,
-    title: '4. Concourse & Passenger AI',
+    title: '4. Concourse & Passenger Simulation',
     desc: 'Watch simulated passengers arrive at curbside, check in at desks, clear TSA security, shop at Duty-Free & Cafes, and proceed down the aerobridge.',
     icon: '👥',
   },

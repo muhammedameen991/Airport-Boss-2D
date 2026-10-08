@@ -47,7 +47,7 @@ export function createInitialPassengers(count: number = 80): PassengerEntity[] {
     passengers.push({
       id: 'p_' + Math.random().toString(36).substring(2, 9),
       name: `${fn} ${ln}`,
-      flightNumber: assignedGate === 'A1' ? 'AI102' : assignedGate === 'A2' ? 'SG204' : assignedGate === 'A3' ? '6E318' : 'UK721',
+      flightNumber: assignedGate === 'A1' ? 'SW102' : assignedGate === 'A2' ? 'SG204' : assignedGate === 'A3' ? '6E318' : 'UK721',
       stage,
       x,
       y,

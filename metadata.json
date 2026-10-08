@@ -1,6 +1,6 @@
 {
   "name": "Airport Boss 2D",
-  "description": "Build, manage, and scale your regional airport into a thriving international aviation hub with real-time aircraft, passenger AI, operations, and economy simulation.",
+  "description": "Build, manage, and scale your regional airport into a thriving international aviation hub with real-time aircraft, passenger simulation, operations, and economy management.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
